@@ -12,7 +12,7 @@ setup(
     install_requires=['pygments >= 1.4'],
 
     entry_points='''[pygments.lexers]
-                    yanlexer=pygments_yanLexer:YanLexer''',
+                    yanlexer=pygments_yanlexer:YanLexer''',
 
     classifiers=[
         'Development Status :: 4 - Beta',
